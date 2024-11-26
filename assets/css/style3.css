@@ -1,0 +1,66 @@
+.fab {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Adjust icon/text size if necessary */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
+}
+
+.fab i {
+    margin: 0; /* Center the icon without extra spacing */
+}
+
+.tooltip-btn {
+    position: relative;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #125c0b;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    right: 100%; /* Position it fully to the right initially */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for position and opacity */
+    z-index: 1;
+    margin-right: 10px; /* Space between the button and the tooltip */
+}
+
+.tooltip-btn:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    right: 110%; /* Slide it to the left */
+}
+
+/* Center the checkboxes horizontally and vertically */
+#studentTable tbody td {
+    vertical-align: middle; /* Center vertically */
+   /* text-align: center;     /* Center horizontally */
+}
+/* Optional: add additional spacing to the checkbox */
+#studentTable .row-checkbox {
+    transform: scale(1.2);  /* Optional: increase checkbox size */
+    margin: auto;           /* Center the checkbox */
+}
+
+
+/* Center the checkboxes horizontally and vertically */
+#studentTable thead th {
+    vertical-align: middle; /* Center vertically */
+    text-align: center;     /* Center horizontally */
+}
+
+#studentTable .text-center{
+    transform: scale(1.2);  /* Optional: increase checkbox size */
+    margin: auto;           /* Center the checkbox */
+}

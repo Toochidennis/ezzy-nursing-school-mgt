@@ -1,0 +1,40 @@
+
+#header .top-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 10px; 
+    font-size: 18px; 
+}
+
+#menuToggle {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#left-panel {
+    width: 200px; 
+    max-width: 200px; 
+    overflow-y: auto; 
+}
+
+
+.navbar-nav li {
+    padding: 8px 10px; 
+    margin: 0; 
+    font-size: 14px; 
+}
+
+
+.menu-title {
+    font-weight: bold;
+    font-size: 16px; 
+    padding: 10px; 
+}
